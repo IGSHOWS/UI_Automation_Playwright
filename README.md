@@ -46,19 +46,55 @@ playwright-qa-assignment/
 ## ⚙️ Setup Instructions
 
 1. Clone the repository  
-2. Install dependencies:
+```
+git clone <https://github.com/IGSHOWS/UI_Automation_Playwright.git>
+```
 
+2. Navigate to project directory  
+```
+cd UI_Automation_Playwright
+```
+
+3. (Optional) Create virtual environment  
+```
+python -m venv venv
+```
+
+4. Activate virtual environment  
+
+Windows:
+```
+venv\Scripts\activate
+```
+
+Mac/Linux:
+```
+source venv/bin/activate
+```
+
+5. Install dependencies  
+```
 pip install -r requirements.txt
+```
 
-3. Install Playwright browsers:
-
+6. Install Playwright browsers  
+```
 playwright install
+```
 
 ---
 
 ## ▶️ Run Tests
 
 pytest
+
+---
+
+## 🏗️ Tech Versions
+
+- Python: 3.10+
+- Playwright: 1.x
+- Pytest: 7.x
 
 ---
 
